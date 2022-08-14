@@ -15,7 +15,7 @@
     <h1 class="ui header"> Liderboard </h1>
     <div class="ui divider"></div>
 
-    <table class="ui celled table">
+    <table class="ui celled table ">
       <thead>
         <tr>
           <th>Name</th>
@@ -52,14 +52,16 @@
               <input id="job" type="text" placeholder="Job">
             </div>
 
-            <div class="ui small primary labeled icon button">
+            <button class="ui small primary labeled icon button add-user" id="addUser">
               <i class="user icon"></i> Add User
-            </div>
+            </button>
           </th>
         </tr>
       </tfoot>
     </table>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./client.js"></script>
 </body>
+
 </html>
